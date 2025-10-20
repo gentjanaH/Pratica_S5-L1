@@ -228,13 +228,19 @@ footer a {
     margin-bottom: 1em;
 }
 
-#logo-js img.responsive {
-    max-width: 100%;
-    height: auto;
-}
+
 
 /*IMPOSTAZIONI PER UN VIEWPORT SIZE MOBILE*/
 @media screen and (min-width:576px) {
+    body {
+        font-family: Poppins, 'Helvetica Neue', sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.5;
+        padding: 15px;
+        background-image: url('../img/sfondo.png');
+        background-position: center center;
+    }
+
     nav li {
         display: inline-block;
         margin-left: 1em;
@@ -244,6 +250,9 @@ footer a {
         background-color: #969494;
     }
 
+    * {
+        box-sizing: border-box;
+    }
 
 }
 
@@ -256,6 +265,10 @@ footer a {
         padding: 15px;
         background-image: url('../img/sfondo.png');
         background-position: center center;
+    }
+
+    * {
+        box-sizing: border-box;
     }
 
     h1 {
@@ -293,12 +306,22 @@ footer a {
 
 /*IMPOSTAZIONI PER UN VIEWPORT SIZE DESKTOP*/
 @media screen and (min-width:1200px) {
+    body {
+        font-family: Poppins, 'Helvetica Neue', sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.5;
+        padding: 15px;
+        background-image: url('../img/sfondo.png');
+        background-position: center center;
+    }
 
+    * {
+        box-sizing: border-box;
+    }
 
     header {
 
         overflow: hidden;
-        /* per contenere i float */
         padding: 0 1.5em;
     }
 
@@ -375,7 +398,6 @@ footer a {
         display: inline-block;
         vertical-align: top;
         width: 30%;
-        /* box-sizing: border-box;*/
         margin: 0;
 
 
